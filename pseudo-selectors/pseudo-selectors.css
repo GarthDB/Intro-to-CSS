@@ -1,0 +1,18 @@
+a {
+  text-decoration: none;
+}
+a:link {
+  color: blue;
+}
+a:visited {
+  color: purple;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:active {
+  border: 1px solid;
+}
+ :hover {
+  border: 2px solid green;
+}
