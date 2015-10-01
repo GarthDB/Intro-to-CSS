@@ -1,0 +1,25 @@
+fieldset {
+  border: none;
+  margin: 0;
+  padding: 8px;
+}
+.text {
+  border: 1px solid #bbb;
+}
+input:focus {
+  outline: none;
+  box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+fieldset:disabled { /* the opposite of input:enabled */
+  opacity: 0.5;
+}
+input:checked + label {
+  font-style: italic;
+}
+input:invalid { /* the opposite of input:valid */
+  border-color: red;
+}
+input:required {
+  border-width: 2px;
+}

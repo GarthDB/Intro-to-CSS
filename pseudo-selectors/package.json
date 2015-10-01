@@ -1,9 +1,0 @@
-{
-  "name": "02-Pseudo-Selectors",
-  "scripts": {
-    "start": "browser-sync start --files '**/*.js, **/*.html, **/*.css' --server ./"
-  },
-  "devDependencies": {
-    "browser-sync": "^2.9.3"
-  }
-}

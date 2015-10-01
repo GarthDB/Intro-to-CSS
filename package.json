@@ -1,0 +1,10 @@
+{
+  "name": "Intro-to-CSS",
+  "scripts": {
+    "start": "browser-sync start --files '**/*.js, **/*.html, **/*.css'",
+    "2": "npm start -- --server 02-pseudo-classes"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.9.3"
+  }
+}

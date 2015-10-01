@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="form.css">
+</head>
+<body>
+  <form>
+    <fieldset>
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email" class="text">
+    </fieldset>
+    <fieldset>
+      <label for="zip">Zip*</label>
+      <input type="text" name="zip" id="zip" class="text" pattern="^[0-9]{5}(?:-[0-9]{4})?$" required>
+    </fieldset>
+    <fieldset disabled>
+      <label for="city">City</label>
+      <input type="text" name="zip" id="city" class="text">
+    </fieldset>
+    <fieldset>
+      <input type="radio" name="sex" id="male" value="male">
+      <label for="male">Male</label><br>
+      <input type="radio" name="sex" id="female" value="female">
+      <label for="female">Female</label>
+    </fieldset>
+  </form>
+  <div> <em>* required</em></div>
+</body>
+</html>
